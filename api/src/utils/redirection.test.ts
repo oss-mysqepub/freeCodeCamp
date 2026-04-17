@@ -10,8 +10,8 @@ import {
 } from './redirection.js';
 import { HOME_LOCATION } from './env.js';
 
-const validJWTSecret = 'this is a super secret string';
-const invalidJWTSecret = 'This is not correct secret';
+const validJWTSecret = 'this is a super secret string'; // NOSONAR
+const invalidJWTSecret = 'This is not correct secret'; // NOSONAR
 const validReturnTo = 'https://www.freecodecamp.org/settings';
 const invalidReturnTo = 'https://www.freecodecamp.org.fake/settings';
 const defaultReturnTo = 'https://www.freecodecamp.org/learn';
